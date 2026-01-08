@@ -218,6 +218,7 @@ h2 {
 /* SECTIONS */
 .section {
   padding: 90px 0;
+  text-align: center;
 }
 
 .grid-2 {
@@ -238,14 +239,14 @@ h2 {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 20px;
-  margin: 40px 0;
+  margin: 20px 0;
 }
 
 .pack {
-  background: white;
-  padding: 30px;
+  background: rgb(255, 255, 255);
+  padding: 10px;
   text-align: center;
-  font-weight: 600;
+  font-weight: 60;
   border-radius: 12px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
   transition: transform 0.3s;
@@ -265,6 +266,7 @@ h2 {
 .pack-benefits,
 .partner-points,
 .why-list {
+  text-align: left;
   list-style: none;
   padding: 0;
 }
@@ -280,15 +282,15 @@ h2 {
 .pack-benefits li::before,
 .partner-points li::before,
 .why-list li::before {
-  content: '✔';
-  position: absolute;
+  content: '☑️';
+  position: relative;
   left: 0;
   color: var(--green);
 }
 
 /* PARTNERS */
 .partners {
-  background: url('../images/background/Trusted-Partner-Across-India-🇮🇳-background.png') center/100% 120% no-repeat;
+  background: url('../images/background/namma-sakkarai-trusted-partner-aceoss-india-IN-background.png') center/100% 120% no-repeat;
   /* background: white; */
 }
 
