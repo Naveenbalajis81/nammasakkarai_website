@@ -41,7 +41,8 @@ html {
 
 body {
   margin: 0;
-  font-family: 'Inter', sans-serif;
+  font-family:"Cinzel","Trajan Pro","Times New Roman",serif;
+  /* font-family: 'Inter', sans-serif; */
   color: #3b2a1a;
   line-height: 1.6;
 
@@ -57,7 +58,8 @@ body {
 
 h1,
 h2 {
-  font-family: 'Playfair Display', serif;
+  font-family:"Cinzel","Trajan Pro","Times New Roman",serif;
+  /* font-family: 'Playfair Display', serif; */
 }
 
 .container {
@@ -102,10 +104,10 @@ h2 {
   position: absolute;
   top: -30px;
   /* Slight overflow top */
-  left: 0;
+  left: -40px;
   width: 300px;
   /* slightly smaller than 150 but still large */
-  height: 130px;
+  height: 150px;
   max-width: none;
   z-index: 1001;
   filter: drop-shadow(0 4px 6px rgba(0, 0, 0, 0.1));
@@ -295,7 +297,7 @@ h2 {
 }
 
 .partners .text-content {
-  background: rgba(255, 255, 255, 0.5);
+  background: rgba(255, 255, 255, 0.002);
   padding: 30px;
   border-radius: 12px;
   backdrop-filter: blur(5px);
@@ -335,7 +337,8 @@ h2 {
 }
 
 .contact-card h3 {
-  font-family: 'Playfair Display', serif;
+  font-family:"Cinzel","Trajan Pro","Times New Roman",serif;
+  /* font-family: 'Playfair Display', serif; */
   font-size: 1.5rem;
   margin: 10px 0;
   color: var(--brown);
@@ -450,11 +453,11 @@ h2 {
   .mobile-overlay-section .text-content {
     position: relative;
     z-index: 1;
-    background: rgba(255, 255, 255, 0.65);
+    background: rgba(255, 255, 255, 0.002);
     /* More transparent */
-    backdrop-filter: blur(10px);
+    backdrop-filter: blur(0px);
     /* Frosted glass effect */
-    -webkit-backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(0px);
     /* Safari support */
     padding: 30px 20px;
     margin: 150px 20px 20px 20px;
@@ -470,9 +473,9 @@ h2 {
 
   /* Adjust logo for mobile */
   .logo img {
-    width: 90px;
+    width: 150px;
     height: 90px;
-    top: -5px;
+    top: -10px;
   }
 
   .header {
@@ -539,7 +542,8 @@ h2 {
 }
 
 .why-choose-us h3 {
-  font-family: 'Playfair Display', serif;
+  font-family:"Cinzel","Trajan Pro","Times New Roman",serif;
+  /* font-family: 'Playfair Display', serif; */
   font-size: 1.8rem;
   margin-bottom: 20px;
   color: var(--brown);
@@ -565,7 +569,8 @@ h2 {
 
 .feature-item .content h4 {
   margin: 0 0 5px 0;
-  font-family: 'Playfair Display', serif;
+  font-family:"Cinzel","Trajan Pro","Times New Roman",serif;
+  /* font-family: 'Playfair Display', serif; */
   font-size: 1.1rem;
   color: #333;
   font-weight: 700;
@@ -579,7 +584,8 @@ h2 {
 }
 
 .quote {
-  font-family: 'Playfair Display', serif;
+  font-family:"Cinzel","Trajan Pro","Times New Roman",serif;
+  /* font-family: 'Playfair Display', serif; */
   font-style: italic;
   font-size: 1.2rem;
   color: var(--brown);
