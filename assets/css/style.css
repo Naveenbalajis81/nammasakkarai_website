@@ -49,12 +49,12 @@ body {
   line-height: 1.6;
 
   /* GLOBAL RESPONSIVE BACKGROUND */
-  background: linear-gradient(rgba(255, 255, 255, 0.4), rgba(227, 153, 107, 0.4)), url('../images/background/namma-sakkarai-desktop-background.png') center/cover no-repeat fixed;
+  background: linear-gradient(rgba(255, 255, 255, 0.4), rgba(227, 153, 107, 0.4)), url('../images/background/namma-sakkarai-desktop-background.jpg') center/cover no-repeat fixed;
 }
 
 @media (max-width: 768px) {
   body {
-    background: linear-gradient(rgba(255, 255, 255, 0.4), rgba(227, 153, 107, 0.4)), url('../images/background/namma-sakkarai-mobile-background.png') center/cover no-repeat fixed;
+    background: linear-gradient(rgba(255, 255, 255, 0.4), rgba(227, 153, 107, 0.4)), url('../images/background/namma-sakkarai-mobile-background.jpg') center/cover no-repeat fixed;
   }
 }
 
@@ -154,7 +154,7 @@ h2 {
 
 /* HERO */
 .hero {
-  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../images/hero-bg.png') center/cover no-repeat;
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../images/about.webp') center/cover no-repeat;
   padding: 150px 0;
   text-align: center;
   color: white;
