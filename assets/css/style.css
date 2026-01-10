@@ -41,9 +41,11 @@ html {
 
 body {
   margin: 0;
-  font-family:"Cinzel","Trajan Pro","Times New Roman",serif;
+  font-family: "Cinzel", "Trajan Pro", "Times New Roman", serif;
   /* font-family: 'Inter', sans-serif; */
-  color: #3b2a1a;
+  color: #2F1B0C;
+  /* color: #5A2E14; */
+  /* color: #3b2a1a; */
   line-height: 1.6;
 
   /* GLOBAL RESPONSIVE BACKGROUND */
@@ -58,7 +60,7 @@ body {
 
 h1,
 h2 {
-  font-family:"Cinzel","Trajan Pro","Times New Roman",serif;
+  font-family: "Cinzel", "Trajan Pro", "Times New Roman", serif;
   /* font-family: 'Playfair Display', serif; */
 }
 
@@ -262,7 +264,7 @@ h2 {
 .pack.highlight {
   background: var(--brown);
   color: white;
-  transform: scale(1.05);
+  transform: scale(-5px);
 }
 
 .pack-benefits,
@@ -292,7 +294,7 @@ h2 {
 
 /* PARTNERS */
 .partners {
-  background: url('../images/background/namma-sakkarai-trusted-partner-aceoss-india-IN-background.jpeg') center/100% 120% no-repeat;
+  background: url('../images/background/namma-sakkarai-trusted-partner-aceoss-india-IN-background-removed.png') center/100% 120% no-repeat;
   /* background: white; */
 }
 
@@ -337,7 +339,7 @@ h2 {
 }
 
 .contact-card h3 {
-  font-family:"Cinzel","Trajan Pro","Times New Roman",serif;
+  font-family: "Cinzel", "Trajan Pro", "Times New Roman", serif;
   /* font-family: 'Playfair Display', serif; */
   font-size: 1.5rem;
   margin: 10px 0;
@@ -366,10 +368,36 @@ h2 {
 
 /* FOOTER */
 .footer {
-  background: #3b2a1a;
+  background: #4A2412;
+  /* background: #3b2a1a; */
   color: #efe4d7;
   text-align: center;
   padding: 30px 0;
+}
+
+.footer-socials {
+  margin-bottom: 20px;
+}
+
+.social-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  color: #efe4d7;
+  text-decoration: none;
+  font-size: 1.1rem;
+  padding: 8px 16px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 20px;
+  transition: all 0.3s ease;
+}
+
+.social-link:hover {
+  background: #E1306C;
+  /* Instagram Color */
+  color: white;
+  transform: translateY(-3px);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
 
 /* MEDIA QUERIES */
@@ -455,7 +483,7 @@ h2 {
     z-index: 1;
     background: rgba(255, 255, 255, 0.002);
     /* More transparent */
-    backdrop-filter: blur(0px);
+    backdrop-filter: blur(5px);
     /* Frosted glass effect */
     -webkit-backdrop-filter: blur(0px);
     /* Safari support */
@@ -542,11 +570,11 @@ h2 {
 }
 
 .why-choose-us h3 {
-  font-family:"Cinzel","Trajan Pro","Times New Roman",serif;
+  font-family: "Cinzel", "Trajan Pro", "Times New Roman", serif;
   /* font-family: 'Playfair Display', serif; */
   font-size: 1.8rem;
   margin-bottom: 20px;
-  color: var(--brown);
+  color: #2F1B0C;
   border-bottom: 1px solid rgba(139, 69, 19, 0.2);
   display: inline-block;
   padding-bottom: 5px;
@@ -569,22 +597,23 @@ h2 {
 
 .feature-item .content h4 {
   margin: 0 0 5px 0;
-  font-family:"Cinzel","Trajan Pro","Times New Roman",serif;
+  font-family: "Cinzel", "Trajan Pro", "Times New Roman", serif;
   /* font-family: 'Playfair Display', serif; */
   font-size: 1.1rem;
-  color: #333;
+  color: #2F1B0C;
   font-weight: 700;
 }
 
 .feature-item .content p {
   margin: 0;
   font-size: 0.95rem;
-  color: #555;
+  color: #522606;
+  /* color: #555; */
   line-height: 1.5;
 }
 
 .quote {
-  font-family:"Cinzel","Trajan Pro","Times New Roman",serif;
+  font-family: "Cinzel", "Trajan Pro", "Times New Roman", serif;
   /* font-family: 'Playfair Display', serif; */
   font-style: italic;
   font-size: 1.2rem;
