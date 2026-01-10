@@ -2,3 +2,4 @@ User-agent: *
 Allow: /
 
 Sitemap: https://nammasakkarai.in/sitemap.xml
+Sitemap: https://nammasakkarai.in/sitemap.html
