@@ -50,6 +50,25 @@
       }
     }
   </script>
+  
+  <script type="application/ld+json">
+  {
+   "@context":"https://schema.org",
+   "@type":"LocalBusiness",
+   "name":"Namma Sakkarai",
+   "image":"https://nammasakkarai.in/assets/images/logo/namma-sakkarai-logo-without-background.png",
+   "url":"https://nammasakkarai.in",
+   "telephone":"+919791361091",
+   "priceRange":"₹₹",
+   "address":{
+     "@type":"PostalAddress",
+     "addressCountry":"IN",
+     "addressRegion":"Tamil Nadu"
+   },
+   "openingHours":"Mo-Su 09:00-21:00",
+   "sameAs":["https://www.instagram.com/nammasakkarai"]
+  }
+  </script>
 
   <script type="application/ld+json">
     {
@@ -66,12 +85,35 @@
         "@type": "Brand",
         "name": "Namma Sakkarai"
       },
+    
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.9",
+        "reviewCount": "127"
+      },
+    
+      "review": [
+        {
+          "@type": "Review",
+          "author": { "@type": "Person", "name": "Naveenbalaji S" },
+          "reviewRating": { "@type": "Rating", "ratingValue": "5" },
+          "reviewBody": "Very pure and tasty jaggery. Smells fresh and melts perfectly."
+        },
+        {
+          "@type": "Review",
+          "author": { "@type": "Person", "name": "Sanjai R" },
+          "reviewRating": { "@type": "Rating", "ratingValue": "5" },
+          "reviewBody": "Excellent quality, no chemicals, my family loved it."
+        }
+      ],
+    
       "offers": [
         {
           "@type": "Offer",
           "name": "500g Trial Pack",
           "price": "80",
           "priceCurrency": "INR",
+          "priceValidUntil": "2026-12-31",
           "availability": "https://schema.org/InStock"
         },
         {
@@ -79,6 +121,7 @@
           "name": "2kg Family Pack",
           "price": "300",
           "priceCurrency": "INR",
+          "priceValidUntil": "2026-12-31",
           "availability": "https://schema.org/InStock"
         },
         {
@@ -86,10 +129,29 @@
           "name": "5kg Value Pack",
           "price": "750",
           "priceCurrency": "INR",
+          "priceValidUntil": "2026-12-31",
           "availability": "https://schema.org/InStock"
         }
       ]
     }
+  </script>
+  <script type="application/ld+json">
+  {
+   "@context":"https://schema.org",
+   "@type":"FAQPage",
+   "mainEntity":[
+    {
+     "@type":"Question",
+     "name":"Is Namma Sakkarai chemical free?",
+     "acceptedAnswer":{"@type":"Answer","text":"Yes, our jaggery is 100% natural with no chemicals or preservatives."}
+    },
+    {
+     "@type":"Question",
+     "name":"Do you deliver across India?",
+     "acceptedAnswer":{"@type":"Answer","text":"Yes, we deliver fresh jaggery to all states in India."}
+    }
+   ]
+  }
   </script>
 
   <link rel="stylesheet" href="assets/css/style.css" />
@@ -106,7 +168,7 @@
   <header class="header">
     <div class="container header-flex">
       <div class="logo">
-        <img src="assets/images/logo/namma-sakkarai-logo-without-background.png" alt="Namma Sakkarai" width="100"
+        <img loading="lazy" src="assets/images/logo/namma-sakkarai-logo-without-background.png" alt="Namma Sakkarai Logo" width="100"
           height="100">
         <!-- <span style="font-size: 20px; font-weight: 600;" class="logo-text">namma sakkarai</span> -->
       </div>
@@ -208,7 +270,7 @@
       </div>
 
       <div class="image-content reveal">
-        <img src="assets/images/about.png" alt="About Namma Sakkarai">
+        <img loading="lazy" src="assets/images/about.png" alt="Pure natural jaggery supplier in India">
       </div>
     </div>
   </section>
@@ -221,23 +283,23 @@
 
       <div class="pack-grid reveal">
         <div class="pack">
-          <img src="assets/images/namma-sakkarai-packs/namma-sakkarai-500g-packs-remove-background.png" alt="500g Pack"
+          <img loading="lazy" src="assets/images/namma-sakkarai-packs/namma-sakkarai-500g-packs-remove-background.png" alt="Buy natural jaggery 500g family pack online in India"
             style="width: 100%; height: 250px;">
           <h3>500g - ₹ 80</h3>
         </div>
         <div class="pack">
-          <img src="assets/images/namma-sakkarai-packs/namma-sakkarai-2kg-pack-remove-background.png" alt="2Kg Pack"
+          <img loading="lazy" src="assets/images/namma-sakkarai-packs/namma-sakkarai-2kg-pack-remove-background.png" alt="Buy natural jaggery 2kg family pack online in India"
             style="width: 100%; height:250px;">
           <h3>2kg - ₹ 300</h3>
         </div>
         <div class="pack">
-          <img src="assets/images/namma-sakkarai-packs/namma-sakkarai-5kg-pack-remove-background.png" alt="5Kg Pack"
+          <img loading="lazy" src="assets/images/namma-sakkarai-packs/namma-sakkarai-5kg-pack-remove-background.png" alt="Buy natural jaggery 5kg family pack online in India"
             style="width: 100%; height: 250px;">
           <h3>5kg - ₹ 750</h3>
         </div>
         <div class="pack highlight">
-          <img src="assets/images/namma-sakkarai-packs/namma-sakkarai-10kg-and-above-packs-remove-background.png"
-            alt="5Kg Pack" style="width: 100%; height: 250px;">
+          <img loading="lazy" src="assets/images/namma-sakkarai-packs/namma-sakkarai-10kg-and-above-packs-remove-background.png"
+            alt="Buy natural jaggery 10kg and Above family pack online in India" style="width: 100%; height: 250px;">
           <h3>10kg & Above</h3>
         </div>
       </div>
