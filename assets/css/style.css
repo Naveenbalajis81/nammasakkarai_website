@@ -64,6 +64,15 @@ h2 {
   /* font-family: 'Playfair Display', serif; */
 }
 
+/* SECTION HEADER COLORS */
+#about .text-content h1,
+.why-choose-us h3,
+#packs h1,
+#partners h2,
+#contact h1 {
+  color: #f7f1e8;
+}
+
 .container {
   width: 90%;
   max-width: 1200px;
@@ -238,6 +247,11 @@ h2 {
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
 }
 
+.about .text-content p {
+  font-weight: 600;
+  text-align: left;
+}
+
 /* PACKS */
 .pack-grid {
   display: grid;
@@ -247,14 +261,31 @@ h2 {
 }
 
 .pack {
-  background: rgb(255, 255, 255);
+  background: rgba(243, 238, 238, 0.945);
   padding: 10px;
   text-align: center;
   font-weight: 60;
   border-radius: 12px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 0 5px 5px #784c2bcb;
   transition: transform 0.3s;
   cursor: pointer;
+}
+
+.pack img {
+  width: 100%;
+  height: 200px;
+  object-fit: contain;
+  object-position: bottom;
+  transform: scale(1.2);
+  margin-bottom: 10px;
+}
+
+.pack h3 {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-family: "Cinzel", serif;
+  font-size: 1.2rem;
+  color: #3b2a1a;
 }
 
 .pack:hover {
@@ -262,7 +293,7 @@ h2 {
 }
 
 .pack.highlight {
-  background: var(--brown);
+  /* background: var(--brown); */
   color: white;
   transform: scale(-5px);
 }
@@ -483,7 +514,7 @@ h2 {
     z-index: 1;
     background: rgba(255, 255, 255, 0.002);
     /* More transparent */
-    backdrop-filter: blur(5px);
+    backdrop-filter: blur(0px);
     /* Frosted glass effect */
     -webkit-backdrop-filter: blur(0px);
     /* Safari support */
@@ -574,7 +605,7 @@ h2 {
   /* font-family: 'Playfair Display', serif; */
   font-size: 1.8rem;
   margin-bottom: 20px;
-  color: #2F1B0C;
+  color: #f7f1e8;
   border-bottom: 1px solid rgba(139, 69, 19, 0.2);
   display: inline-block;
   padding-bottom: 5px;
@@ -607,7 +638,8 @@ h2 {
 .feature-item .content p {
   margin: 0;
   font-size: 0.95rem;
-  color: #522606;
+  color: #2F1B0C;
+  font-weight: 600;
   /* color: #555; */
   line-height: 1.5;
 }
