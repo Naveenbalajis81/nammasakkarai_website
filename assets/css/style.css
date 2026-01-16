@@ -527,7 +527,7 @@ h2 {
   .mobile-overlay-section .text-content {
     position: relative;
     z-index: 1;
-    background: rgba(255, 255, 255, 0.002);
+    background: rgba(255, 139, 0, 0.24);
     /* More transparent */
     backdrop-filter: blur(0px);
     /* Frosted glass effect */
